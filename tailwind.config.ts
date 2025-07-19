@@ -63,6 +63,22 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
+			fontFamily: {
+				display: ['Playfair Display', 'serif'],
+				body: ['Source Sans Pro', 'sans-serif'],
+			},
+			astro: {
+				rose: '#E8B4B8',
+				beige: '#F5E6D3',
+				gold: '#D4A574',
+				charcoal: '#2C2C2C',
+			}
+		},
+		fontFamily: {
+			display: ['Playfair Display', 'serif'],
+			body: ['Source Sans Pro', 'sans-serif'],
+		},
+		extend: {
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
